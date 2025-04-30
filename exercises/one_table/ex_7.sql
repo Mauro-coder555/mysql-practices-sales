@@ -3,4 +3,4 @@
 SELECT id, nombre, apellido1
 FROM cliente
 WHERE apellido2 IS NOT NULL
-ORDER BY apellido1 DESC, apellido2 DESC, nombre DESC
+ORDER BY apellido1 ASC, apellido2 ASC, nombre ASC

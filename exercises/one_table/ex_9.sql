@@ -3,4 +3,4 @@
 SELECT nombre
 FROM cliente
 WHERE NOT nombre LIKE "A%"
-ORDER BY nombre DESC
+ORDER BY nombre ASC
